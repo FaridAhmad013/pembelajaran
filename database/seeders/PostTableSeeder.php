@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;  
+use Illuminate\Support\Facades\DB;
 
 class PostTableSeeder extends Seeder
 {
@@ -17,5 +17,5 @@ class PostTableSeeder extends Seeder
         ];
 
         DB::table('posts')->insert($posts);
-    }
+    } 
 }

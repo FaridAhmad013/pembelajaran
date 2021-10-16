@@ -128,5 +128,15 @@ Route::get('/hobi', function () {
     return view('hobi', compact('hobies'));
 });
 
+Route::get('/post', function () {
+    $query = App\Models\Post::all();
+    return view('test-post', compact('query'));
+});
+
+Route::get('/biodatas', function () {
+    $biodatas = App\Models\Biodata::all();
+    return view('test-biodata', ['biodata' => $biodatas]);
+});
+
 
 
