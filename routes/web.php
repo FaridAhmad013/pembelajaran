@@ -1,5 +1,10 @@
 <?php
 
+use App\Http\Controllers\BarangController;
+use App\Http\Controllers\PembelianController;
+use App\Http\Controllers\PembeliController;
+use App\Http\Controllers\PesananController;
+use App\Http\Controllers\SupplierController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -138,5 +143,10 @@ Route::get('/biodatas', function () {
     return view('test-biodata', ['biodata' => $biodatas]);
 });
 
+Route::get('/barang', [BarangController::class, 'index']);
+Route::get('/supplier', [SupplierController::class, 'index']);
+Route::get('/pembelian', [PembelianController::class, 'index']);
+Route::get('/pembeli', [PembeliController::class, 'index']);
+Route::get('/pesanan', [PesananController::class, 'index']);
 
 
