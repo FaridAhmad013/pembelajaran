@@ -15,11 +15,11 @@ class PesananTableSeeder extends Seeder
     public function run()
     {
         $pesanans = [
-            ['nama_pelanggan' => 'Farid', 'nama_barang' => 'mie ayam', 'tgl_pesan' => now(), 'created_at' => now(), 'updated_at' => now()],
-            ['nama_pelanggan' => 'ikbal', 'nama_barang' => 'nasi goreng', 'tgl_pesan' => now(), 'created_at' => now(), 'updated_at' => now()],
-            ['nama_pelanggan' => 'cecep', 'nama_barang' => 'bakso', 'tgl_pesan' => now(), 'created_at' => now(), 'updated_at' => now()],
-            ['nama_pelanggan' => 'bagas', 'nama_barang' => 'ayam bakar', 'tgl_pesan' => now(), 'created_at' => now(), 'updated_at' => now()],
-            ['nama_pelanggan' => 'diki', 'nama_barang' => 'soto', 'tgl_pesan' => now(), 'created_at' => now(), 'updated_at' => now()]
+            ['nama_pelanggan' => 'Farid', 'nama_barang' => 'Pizza', 'tgl_pesan' => now(), 'created_at' => now(), 'updated_at' => now()],
+            ['nama_pelanggan' => 'Ahmad', 'nama_barang' => 'Seblak', 'tgl_pesan' => now(), 'created_at' => now(), 'updated_at' => now()],
+            ['nama_pelanggan' => 'Fadhilah', 'nama_barang' => 'Hot Dog', 'tgl_pesan' => now(), 'created_at' => now(), 'updated_at' => now()],
+            ['nama_pelanggan' => 'Ikbal', 'nama_barang' => 'POP CORN', 'tgl_pesan' => now(), 'created_at' => now(), 'updated_at' => now()],
+            ['nama_pelanggan' => 'Cecep', 'nama_barang' => 'Seblak', 'tgl_pesan' => now(), 'created_at' => now(), 'updated_at' => now()]
         ];
 
         DB::table('pesanans')->insert($pesanans);

@@ -15,11 +15,11 @@ class SupplierTableSeeder extends Seeder
     public function run()
     {
         $suppliers = [
-            ['nama' => 'Farid', 'alamat' => 'Bandung', 'kode_pos' => rand(1,99999999) , 'kota' => 'Bandung', 'created_at' => now(), 'updated_at' => now()],
-            ['nama' => 'Ahmad', 'alamat' => 'Bandung', 'kode_pos' => rand(1,99999999) , 'kota' => 'Bandung', 'created_at' => now(), 'updated_at' => now()],
-            ['nama' => 'Fadhilah', 'alamat' => 'Bandung', 'kode_pos' => rand(1,99999999) , 'kota' => 'Bandung', 'created_at' => now(), 'updated_at' => now()],
-            ['nama' => 'Ikbal', 'alamat' => 'Bandung', 'kode_pos' => rand(1,99999999) , 'kota' => 'Bandung', 'created_at' => now(), 'updated_at' => now()],
-            ['nama' => 'Cecep', 'alamat' => 'Bandung', 'kode_pos' => rand(1,99999999) , 'kota' => 'Bandung', 'created_at' => now(), 'updated_at' => now()]
+            ['nama' => 'Farid', 'alamat' => 'Jl. Terusan andir no. 34', 'kode_pos' => rand(1000,10000) , 'kota' => 'Bandung', 'created_at' => now(), 'updated_at' => now()],
+            ['nama' => 'Ahmad', 'alamat' => 'Jl. Stobery', 'kode_pos' => rand(1000,10000) , 'kota' => 'Bandung', 'created_at' => now(), 'updated_at' => now()],
+            ['nama' => 'Fadhilah', 'alamat' => 'Jl. Mawar', 'kode_pos' => rand(1000,10000) , 'kota' => 'Bandung', 'created_at' => now(), 'updated_at' => now()],
+            ['nama' => 'Ikbal', 'alamat' => 'Jl. Rancamanyar', 'kode_pos' => rand(1000,10000) , 'kota' => 'Bandung', 'created_at' => now(), 'updated_at' => now()],
+            ['nama' => 'Cecep', 'alamat' => 'Jl. Situtarate', 'kode_pos' => rand(1000,10000) , 'kota' => 'Bandung', 'created_at' => now(), 'updated_at' => now()]
         ];
 
         DB::table('suppliers')->insert($suppliers);

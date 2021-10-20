@@ -17,7 +17,7 @@ class BarangTableSeeder extends Seeder
         $barangs = [
             ['nama' => 'Pizza', 'varian' => 'pedas', 'harga_beli' => rand(100, 999999), 'harga_jual' => rand(100, 9999999), 'created_at' => now(), 'updated_at' => now()],
             ['nama' => 'Seblak', 'varian' => 'pedas', 'harga_beli' => rand(100, 999999), 'harga_jual' => rand(100, 9999999), 'created_at' => now(), 'updated_at' => now()],
-            ['nama' => 'Hot Dog', 'varian' => 'varian', 'harga_beli' => rand(100, 999999), 'harga_jual' => rand(100, 9999999), 'created_at' => now(), 'updated_at' => now()],
+            ['nama' => 'Hot Dog', 'varian' => 'Keju', 'harga_beli' => rand(100, 999999), 'harga_jual' => rand(100, 9999999), 'created_at' => now(), 'updated_at' => now()],
             ['nama' => 'POP CORN', 'varian' => 'Rasa Keju', 'harga_beli' => rand(100, 999999), 'harga_jual' => rand(100, 9999999), 'created_at' => now(), 'updated_at' => now()],
             ['nama' => 'Seblak', 'varian' => 'Semi pedas', 'harga_beli' => rand(100, 999999), 'harga_jual' => rand(100, 9999999), 'created_at' => now(), 'updated_at' => now()]
         ];
